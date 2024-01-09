@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dscountdown.css" type="text/css" />
+    <title>HRANA.</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">HRANA.</a>
+
+            <ul class="nav-meni">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Početna</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galerija.html" class="nav-link">Galerija</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Budi deo tima</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1 class="budi-deo-tima-naslovna">Budi deo tima !!!</h1>
+        <div class="tim-tekst">
+            <h2> Radnik u restoranu brze hrane</h2>
+            <p>HRANA. restoran brze hrane koji trenutno posluje na jednoj lokaciji u Beogradu i svoje usluge pripreme
+                pruža 24 sata dnevno 360 dana u godini. U ponudi su uvek sveže spremljena jela: pizze u 4 veličine, jela
+                saroštilja i raznovrsna pića. Sva jela se spremaju po porudžbini u najkraćem mogućem roku i uvek
+                sveža.</p>
+            <p><b>Broj izvršilaca:</b> 5</p>
+            <p><b>Stručna sprema:</b> SSS, KV</p>
+            <hr>
+            <p><b>Opis posla</b></p>
+            <p>Priprema pizza i jela sa roštilja</p>
+
+            <p><b>Znanje i veštine</b></p>
+            <p>Poželjno je poznavanje poslova iz oblasti pripreme hrane.</p>
+
+            <p><b>Profil kandidata</b></p>
+            <p>Komunikativnost, pedantnost, sposobnost za timski rad</p>
+
+            <p><b>Nudimo</b></p>
+            <ul>
+                <li>Redovnu stimulativnu platu od 40.000-70.000 i više</li>
+                <li>Mogućnost zaposlenja na duži rok</li>
+                <li>napredovanje u okviru firm u skladu sa angažovanjem i ostvarenim rezultatima</li>
+            </ul>
+            <hr>
+
+        </div>
+
+        <div class="kontakt-anchor tim-anchor">
+            <a href="kontakt.html"><b>Kontakt</b></a>
+        </div>
+        
+        <div class = "countdown-wrapper">
+            <h3 class = "vreme-deo-tima">Prijave ističu za:</h3>
+            <div class="countdown"></div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div>
+            <p>Copyright &copy; MAM Fakultet organizacionih nauka</p>
+            <p id="vreme"></p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.countdown').dsCountDown({
+                endDate: new Date("December 31, 2022 23:59:59")
+            });
+        });
+    </script>
+    <script type="text/javascript" src="js/dscountdown.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        const vreme = new Date();
+        document.getElementById("vreme").innerHTML = vreme;
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <title>HRANA.</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">HRANA.</a>
+
+            <ul class="nav-meni">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Početna</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galerija.html" class="nav-link">Galerija</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a href="budi-deo-tima.html" class="nav-link">Budi deo tima</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="content-wrap-galerija">
+            <h1 class="galerija-naslovna">Galerija</h1>
+
+            <div class="big-box">
+                <div class="small-box">
+                    <div class="img-wrap"><img class="demo" alt="Belo Meso" src="img/galerija/1.png"></div>
+                    <div class="img-wrap"><img class="demo" alt="Capricciosa" src="img/galerija/2.png">
+                    </div>
+                    <div class="img-wrap"><img class="demo" alt="Chili pica" src="img/galerija/3.png"></div>
+                    <div class="img-wrap"><img class="demo" alt="Quattro stagioni" src="img/galerija/4.png"></div>
+                </div>
+                <div class="small-box">
+                    <div class="img-wrap"><img class="demo" alt="Gurmanska pljeskavica" src="img/galerija/5.png"></div>
+                    <div class="img-wrap"><img class="demo" alt="Mama Mia pica" src="img/galerija/6.png">
+                    </div>
+                    <div class="img-wrap"><img class="demo" alt="Napolitana pica" src="img/galerija/7.png"></div>
+                    <div class="img-wrap"><img class="demo" alt="Pileci batak" src="img/galerija/8.png">
+                    </div>
+                </div>
+                <div class="small-box">
+                    <div class="img-wrap"><img class="demo" alt="Piroska" src="img/galerija/9.png"></div>
+                    <div class="img-wrap"><img class="demo" alt="Obicna pljeskavica" src="img/galerija/10.png">
+                    </div>
+                    <div class="img-wrap"><img class="demo" alt="Punjena pljeskavica" src="img/galerija/11.png"></div>
+                    <div class="img-wrap"><img class="demo" alt="Vesalica" src="img/galerija/12.png"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="galerija-image-view">
+
+        </div>
+
+        <div class="galerija-image-box">
+            <div id="prev-btn"></div>
+            <div id="next-btn"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <p>Copyright &copy; MAM Fakultet organizacionih nauka</p>
+            <p id="vreme"></p>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/galerija.js"></script>
+    <script>
+        const vreme = new Date();
+        document.getElementById("vreme").innerHTML = vreme;
+    </script>
+</body>
+
+</html>

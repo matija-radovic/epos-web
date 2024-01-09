@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <title>HRANA.</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">HRANA.</a>
+
+            <ul class="nav-meni">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Početna</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galerija.html" class="nav-link">Galerija</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a href="budi-deo-tima.html" class="nav-link">Budi deo tima</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+
+        <div class="banner">
+            <img src="img/burger-rescalled-long-with-text-mali.png" class="slika-burger">
+        </div>
+
+        <div class="delivery">
+            <div>
+                <h2>Usluga dostave iznosi <b><i>150rsd</i></b></h2>
+                <p>Svakog dana od 9 do 23h</p>
+            </div>
+            <img src="img/car-side-white.png" class="auto">
+        </div>
+
+        <div class="jelovnik">
+            <div class="jelovnik-traka">
+                <input type="radio" name="hrana" id="burgerId" class="hamburger-tab" checked>
+                <label for="burgerId"><img src="img/hamburger.png"></label>
+                <input type="radio" name="hrana" id="pizzaId" class="pica-tab">
+                <label for="pizzaId"><img src="img/pizza.png"></label>
+                <input type="radio" name="hrana" id="sokId" class="sok-tab">
+                <label for="sokId"><img src="img/orange-juice.png"></label>
+            </div>
+            <div class="cenovnik">
+                <table id="hamburger-tab">
+                    <thead>
+                        <tr>
+                            <td colspan="3">
+                                <h2><b>Roštilj</b></h2>
+                                </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pljeskavica</td>
+                            <td>160gr</td>
+                            <td>300rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Gurmanska pljeskavica</td>
+                            <td>200gr</td>
+                            <td>350rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Punjena pljeskavica</td>
+                            <td>250gr</td>
+                            <td>380rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Belo meso</td>
+                            <td>200gr</td>
+                            <td>380rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Pileći batak</td>
+                            <td>200gr</td>
+                            <td>350rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Vešalica</td>
+                            <td>200gr</td>
+                            <td>420rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Punjena vešalica</td>
+                            <td>300gr</td>
+                            <td>500rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Rolovana džigerica</td>
+                            <td>200gr</td>
+                            <td>380rsd</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table id="pica-tab">
+                    <thead>
+                        <tr>
+                            <td colspan="3">
+                                <h2><b>Pice</b></h2>
+                                </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Piroška</td>
+                            <td>28cm</td>
+                            <td>650rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Capricciosa</td>
+                            <td>32cm</td>
+                            <td>700rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Chili</td>
+                            <td>32cm</td>
+                            <td>900rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Quattro stagioni</td>
+                            <td>32cm</td>
+                            <td>850rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Mama mia pica</td>
+                            <td>32cm</td>
+                            <td>750rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Napolitana</td>
+                            <td>32cm</td>
+                            <td>700rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Capricciosa</td>
+                            <td>42cm</td>
+                            <td>1000rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Chili</td>
+                            <td>42cm</td>
+                            <td>1300rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Quattro stagioni</td>
+                            <td>42cm</td>
+                            <td>1150rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Mama mia pica</td>
+                            <td>42cm</td>
+                            <td>1050rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Napolitana</td>
+                            <td>42cm</td>
+                            <td>1000rsd</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table id="sok-tab">
+                    <thead>
+                        <tr>
+                            <td colspan="3">
+                                <h2><b>Sokovi</b></h2>
+                                </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fanta</td>
+                            <td>0.5L</td>
+                            <td>120rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Coca Cola</td>
+                            <td>0.5L</td>
+                            <td>120rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Sprite</td>
+                            <td>0.5L</td>
+                            <td>120rsd</td>
+                        </tr>
+                        <tr>
+                            <td>NEXT Jagoda</td>
+                            <td>0.33l</td>
+                            <td>100rsd</td>
+                        </tr>
+                        <tr>
+                            <td>NEXT Pomorandza</td>
+                            <td>0.33l</td>
+                            <td>100rsd</td>
+                        </tr>
+                        <tr>
+                            <td>NEXT Jabuka</td>
+                            <td>0.33l</td>
+                            <td>100rsd</td>
+                        </tr>
+                        <tr>
+                            <td>NEXT Breskva</td>
+                            <td>0.33l</td>
+                            <td>100rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Heineken</td>
+                            <td>0.5L</td>
+                            <td>200rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Zajecarasko pivo</td>
+                            <td>0.5L</td>
+                            <td>120rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Lav pivo</td>
+                            <td>0.5L</td>
+                            <td>120rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Jelen pivo</td>
+                            <td>0.5L</td>
+                            <td>100rsd</td>
+                        </tr>
+                        <tr>
+                            <td>Jagodinsko pivo</td>
+                            <td>0.5L</td>
+                            <td>50rsd</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div class="kontakt-anchor">
+            <a href="kontakt.html"><b>Poruci odmah!!!</b></a>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <p>Copyright &copy; MAM Fakultet organizacionih nauka</p>
+            <p id="vreme"></p>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script>
+        const vreme = new Date();
+        document.getElementById("vreme").innerHTML = vreme;
+    </script>
+</body>
+
+</html>
